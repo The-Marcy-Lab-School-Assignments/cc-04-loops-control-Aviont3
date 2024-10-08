@@ -35,3 +35,7 @@ sumOfThreeOrFive = () => {
   console.log(sum);
 };
 sumOfThreeOrFive();
+
+isAllLowerCase = (srt) => {
+  console.log(srt === srt.toLowerCase());
+};
